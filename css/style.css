@@ -1,0 +1,230 @@
+html {
+  box-sizing: border-box
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --primery-background-color:#FFFFFF;
+  --secondary-background-color:#E5E5E5;
+  --hero-footer-background-color:#2F303A;
+  --main-title-color: #FFFFFF;
+  --secondary-title-color:  #212121;
+  --main-text-color:  #757575;
+  --accent-color:#2196F3;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-list {
+  width: 294px;
+height: 16px;
+left: 453px;
+top: 32px;
+}
+.header-logo {
+  font-family: Raleway;
+  font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--secondary-title-color);
+}
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--secondary-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color);
+}
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--main-text-color) ;
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  color: var(--main-text-color) ;
+  }
+.hero {
+  background-color: var(--hero-footer-background-color);
+}
+.hero-title {
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--main-title-color);
+}
+.hero-button {
+  font-family: Roboto;
+font-style: normal;
+  background-color: var(--accent-color);
+  font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+color: var(--main-title-color);
+}
+.features {
+  background-color: var(--secondary-background-color);
+}
+.features-title {
+  font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--secondary-title-color);
+}
+.features-text {
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--main-text-color);
+}
+.images {
+  background-color: var(--secondary-background-color);
+}
+.images-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: var(--secondary-title-color);
+}
+.team-section {
+  background-color: #F5F4FA;
+}
+.team-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--secondary-title-color);
+}
+.team-name {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--secondary-title-color);
+}
+.team-position {
+  font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-text-color);
+}
+.contacts {
+  background-color: var(--hero-footer-background-color);
+}
+.contacts-address {
+  font-style: normal;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--main-title-color);
+}
+.contacts-link {
+  font-style: normal;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+color: var(--accent-color);
+}
+.contacts-logo {
+  font-family: Raleway;
+  font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--main-title-color);
+}
+span {
+  color: var(--accent-color);
+}
+
+.portfolio-hero-button:focus,
+.portfolio-hero-button:hover {
+  color: var(--main-title-color);
+  background-color: var(--accent-color);
+}
+.portfolio-hero-button {
+  font-family: Roboto;
+  font-style: normal; 
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+color: var(--secondary-title-color);
+}
+.our-products-title {
+  font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--secondary-title-color);
+}
+.our-products-text {
+  font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color: var(--main-text-color);
+
+}
+ 
