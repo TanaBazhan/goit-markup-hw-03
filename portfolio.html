@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +9,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+                integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
         <!--page header-->
-    <header class="header">
-      <!-- Main navigation -->
-<nav class="header-navigation">
-  <a class="header-logo link" lang="en" href="./index.html"><span>Web</span>Studio</a>
-  <ul class="header-list list">
-      <li class="header-item">
-         <a href="./index.html" class="header-link link">Студия</a>  
-      </li>
-      <li class="header-item">
-          <a class="header-link link" href="./portfolio.html">Портфолио</a> 
-      </li>
-      <li class="header-item">
-          <a class="header-link link" href="">Контакты</a> 
-      </li>
-  </ul>
-</nav>
-<div class="header-right">
-  <a class="header-tel header-link link" href="tell:+380961111111">+38096 111 11 11</a>
-  <a class="header-mail header-link link" href="mailgo:info@devstudio.com">info@devstudio.com</a>
-</div>
+        <header class="header">
+          <!-- Main navigation -->
+  <div class="container">
+  <nav class="header-navigation">
+      <a class="header-logo link" lang="en" href="./index.html"><span>Web</span>Studio</a>
+      <div class="main-navigation">
+      <ul class="header-list list">
+          <li class="header-item">
+             <a class="header-link link" href="./index.html">Студия</a>  
+          </li>
+          <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Портфолио</a> 
+          </li>
+          <li class="header-item">
+              <a class="header-link link" href="">Контакты</a> 
+          </li>
+      </ul>
+      </div>
+  </nav>
+  <div class="header-right">
+      <a class="header-tel header-link link" href="tell:+380961111111">+38096 111 11 11</a>
+      <a class="header-mail header-link link" href="mailgo:info@devstudio.com">info@devstudio.com</a>
+  </div>
+  </div>
 </header>
         <!-- unique page content -->
     <main>
       <!-- hero -->
       <section class="portfolio-hero">
-          
+          <div class="container portfolio-container">
           <ul class="portfolio-hero-list list">
                 <li class="portfolio-hero-item"><button class="portfolio-hero-button" type="button">Все</button></li>
                 <li class="portfolio-hero-item"><button class="portfolio-hero-button" type="button">Веб-сайты</button></li>
@@ -77,9 +81,11 @@
                 <h3 class="our-products-title">Growing Business</h3>
                 <p class="our-products-text">Приложение</p></li>
           </ul>
+        </div>
       </section>
     </main>
     <footer class="contacts">
+      <div class="container contacts-container">
       <a class="contacts-logo link" lang="en" href="./index.html"><span>Web</span>Studio</a>
       <address>
           <ul class="contacts-list list"> 
@@ -88,6 +94,7 @@
               <li class="contacts-items"><a class="contacts-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
           </ul>
       </address>
+  </div>
   </footer>
 </body>
 </html>
