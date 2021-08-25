@@ -1,10 +1,12 @@
-html {
-  box-sizing: border-box
+
+p, h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 :root {
   --primery-background-color:#FFFFFF;
@@ -18,11 +20,29 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .header {
-  width: 1600px;
+width: 1600px;
 height: 80px;
 left: 0px;
 top: 0px;
+display: flex;
+
+border: 1px solid #ECECEC;
+} 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 .list {
   list-style: none;
@@ -30,12 +50,7 @@ top: 0px;
 .link {
   text-decoration: none;
 }
-.header-list {
-  width: 294px;
-height: 16px;
-left: 453px;
-top: 32px;
-}
+
 .header-logo {
   font-family: Raleway;
   font-weight: bold;
@@ -44,6 +59,17 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 
 color: var(--secondary-title-color);
+margin-left: 215px;
+margin-right: 93px;
+}
+.main-navigation {
+  width: 294px;
+height: 16px;
+
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
 }
 .header-link {
 font-weight: 500;
@@ -56,6 +82,11 @@ color: var(--secondary-title-color);
 .header-link:hover,
 .header-link:focus {
 color: var(--accent-color);
+}
+.header-right {
+  margin-left: auto;
+    display: flex;
+  align-items: center;
 }
 .header-tel {
 font-weight: 500;
@@ -73,6 +104,7 @@ color: var(--main-text-color) ;
   
   color: var(--main-text-color) ;
   }
+  
 .hero {
   background-color: var(--hero-footer-background-color);
 }
