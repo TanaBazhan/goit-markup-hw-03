@@ -345,10 +345,11 @@ padding: 6px 22px;
   flex-wrap: wrap;
 }
 .our-products-item {
+  border: 1px solid #EEEEEE;
   margin-top: 34px;
 }
 .our-products-item:not(:nth-child(3n)) {
-  margin-right: 30px;
+  margin-right: 27px;
 }
 .our-title-container {
 padding: 20px 24px;
